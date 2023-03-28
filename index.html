@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link
+        href="https://fonts.bunny.net/css?family=balsamiq-sans:400,400i,700,700i|roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
+        rel="stylesheet" />
+    <title>Javascript Exercise</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="#" class="logo">EVASION</a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="#"></a>Quote Generator</li>
+                    <li><a href="#"></a>ToDo List</li>
+                    <li><a href="#"></a>Memory</li>
+                    <li><a href="#"></a>Group-Maker</li>
+                    <li><a href="#"></a>API Fetcher</li>
+                </ul>
+            </div>
+            <div class="menu-hamburger"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40"
+                    viewBox="0 0 16 16">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="1.5" d="M2.75 12.25h10.5m-10.5-4h10.5m-10.5-4h10.5" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".menu-hamburger")
+    const navLinks = document.querySelector(".nav-links")
+
+    menuHamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('mobile-menu')
+    })
+</script>
+
+</html>
