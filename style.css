@@ -7,6 +7,7 @@
 
 body {
     font-family: 'roboto';
+    background-image: url(image/background.jpg);
 }
 
 header {
@@ -73,6 +74,42 @@ nav .logo {
     right: 50px;
     width: 35px;
 }
+
+/* page 1 */
+
+h1 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#container {
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 5px solid;
+    color: black;
+    height: 10em;
+    width: 750px;
+    background-color: white;
+    text-align: center;
+    font-style: italic;
+    padding-top: 4em;
+}
+
+button {
+    margin: 0 auto;
+    margin-top: 2em;
+    display: flex;
+    cursor: pointer;
+    width: 10em;
+    height: 2em;
+    border-radius: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+}
+
+/* page2 */
+
 
 @media screen and (max-width:900px) {
     .nav-links {
