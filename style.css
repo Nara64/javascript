@@ -85,16 +85,27 @@ h1 {
     margin-top: 2em;
     border: 5px solid;
     color: black;
-    height: 20em;
+    height: 10em;
     width: 750px;
     background-color: white;
+    text-align: center;
+    font-style: italic;
+    padding-top: 4em;
 }
 
 button {
     margin: 0 auto;
     margin-top: 2em;
     display: flex;
+    cursor: pointer;
+    width: 10em;
+    height: 2em;
+    border-radius: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
 }
+
 
 @media screen and (max-width:900px) {
     .nav-links {
