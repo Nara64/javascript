@@ -109,7 +109,37 @@ button {
 }
 
 /* page2 */
+#todo {
+    border: 0.2rem solid #c1a8a1;
+    margin: 0 auto;
+    margin-top: 2em;
+    color: black;
+    height: 30em;
+    width: 30rem;
+}
+h2 {
+    text-align: center;
+}
+#checkbox {
+    margin-top: 3rem;
+    padding: 2rem;
+    font-size: 1.2rem;
 
+}
+ol {
+   margin: 3rem;
+   margin-right: 10rem;
+   margin: -3rem;
+}
+
+ol li {
+    cursor: pointer;
+    position: relative;
+    padding: 0.7rem 0.5rem 10.7rem 2.5rem;
+    list-style-type: none;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
 
 @media screen and (max-width:900px) {
     .nav-links {
